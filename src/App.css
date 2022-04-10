@@ -1,38 +1,124 @@
+*{
+  margin: 0px;
+  box-sizing: border-box;
+}
 .App {
   text-align: center;
+  height: 100%;
+  background-size: 300% 300%;
+  background-image: linear-gradient(
+        -45deg,
+        rgba(105,58,14,1) 0%,
+        rgba(37,52,35,1) 25%,
+        rgba(64, 87, 61,1) 51%,
+        rgba(142,106,13,1) 100%
+  );
+  animation: AnimateBG 10s ease infinite;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+@keyframes AnimateBG {
+  0%{background-position:0% 50%}
+  50%{background-position:100% 50%}
+  100%{background-position:0% 50%}
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+#navigation {
+  width: 100vw;
+  height: auto;
+  background-color: black;
+}
+#logo-text {
+  font-family: 'Dancing Script', cursive;
+  font-size: 40px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+#hero {
+  width: 100%;
+  height: 100%;
   display: flex;
-  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#hero-container {
+  width: auto;
+  height: auto;
+  margin-top: 10px;
+}
+#hero-container img {
+  border-radius: 5px;
+}
+
+#card1 {
+  background: black;
+  border: black 7px solid;
+  border-radius: 5px;
+  width: 24rem;
+}
+#card2 {
+  background: black;
+  border: black 7px solid;
+  border-radius: 5px;
+  width: 30rem;
+}
+#card-header{
+  color: white;
+  font-size: 30px;
+  font-family: 'Dancing Script', cursive;
+
+}
+
+#footer {
+  width: 100vw;
+  height: auto;
+  margin-top: 10px;
+  background-color: grey;
+  text: white;
+  margin-bottom: 0px;
+}
+
+#about-image-container {
+  width: 80%;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+#minter-container {
+  margin: 7.5px 0;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+#icon {
+  margin: 0 5px;
+}
+.icon-container {
+  margin-top: 10px;
+}
+
+@media only screen and (max-width: 600px) {
+  #card1 {
+    width: 24rem;
   }
-  to {
-    transform: rotate(360deg);
+  #card2 {
+    width: 24rem;
+  }
+}
+
+@media only screen and (max-width: 380px) {
+  #card1 {
+    width: 19rem;
+  }
+  #card2 {
+    width: 19rem;
+  }
+}
+
+@media only screen and (max-width: 396px) {
+  #logo-text {
+    font-size: 28px;
+  }
+  #card1 {
+    width: 17rem;
+  }
+  #card2 {
+    width: 17rem;
   }
 }
