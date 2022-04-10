@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/Timeless-Impressions-NFT/static/css/main.2d0a4a59.css",
+    "main.js": "/Timeless-Impressions-NFT/static/js/main.bff91b18.js",
+    "static/js/787.766f5af6.chunk.js": "/Timeless-Impressions-NFT/static/js/787.766f5af6.chunk.js",
+    "static/media/impression5.png": "/Timeless-Impressions-NFT/static/media/impression5.a9de19b5c05c96aeb1e6.png",
+    "static/media/impression8.png": "/Timeless-Impressions-NFT/static/media/impression8.a02978a4863fc13bb0eb.png",
+    "static/media/impression3.png": "/Timeless-Impressions-NFT/static/media/impression3.9aa2a5ec6844630b678c.png",
+    "static/media/impression2.png": "/Timeless-Impressions-NFT/static/media/impression2.6460fcf956bb9ef43299.png",
+    "static/media/impression4.png": "/Timeless-Impressions-NFT/static/media/impression4.709294cfc6e5ea620e22.png",
+    "static/media/impression1.png": "/Timeless-Impressions-NFT/static/media/impression1.18a410191f3f930940a5.png",
+    "index.html": "/Timeless-Impressions-NFT/index.html",
+    "main.2d0a4a59.css.map": "/Timeless-Impressions-NFT/static/css/main.2d0a4a59.css.map",
+    "main.bff91b18.js.map": "/Timeless-Impressions-NFT/static/js/main.bff91b18.js.map",
+    "787.766f5af6.chunk.js.map": "/Timeless-Impressions-NFT/static/js/787.766f5af6.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2d0a4a59.css",
+    "static/js/main.bff91b18.js"
+  ]
+}
